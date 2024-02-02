@@ -1,27 +1,51 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
+ 
+@layer base {
   :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    --background: #242C33;
+    --foreground: #EBF4F9;
+
+    --card: #010816;
+    --card-foreground: #EBF4F9;
+
+    --popover: #010816;
+    --popover-foreground: #EBF4F9;
+
+    --primary: #EBF4F9;
+    --primary-foreground: #0f172a;
+
+    --secondary: #1e293b;
+    --secondary-foreground: #EBF4F9;
+
+    --muted: #1e293b;
+    --muted-foreground: #94a3b7;
+
+    --accent: #1e293b;
+    --accent-foreground: #EBF4F9;
+
+    --destructive: #7f1d1d;
+    --destructive-foreground: #EBF4F9;
+
+    --border: #1e293b;
+    --input: #1e293b;
+    --ring: #cad4e0;
+    
+    --radius: 0.5rem;
+  }
+}
+ 
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.bg-clip-text {
+  -webkit-background-clip: text;
+  background-clip: text;
 }
