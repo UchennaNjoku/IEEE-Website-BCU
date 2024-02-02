@@ -103,7 +103,7 @@ export default function Home() {
                             </CardContent>
                           </Card>
                       </div>
-                      <div className='text-white font-inter font-medium text-xl md:text-2xl text-center mt-4'>PA's</div>
+                      <div className='text-white font-inter font-medium text-xl md:text-2xl text-center mt-4'>PA`&lsquo`s</div>
                     </CarouselItem>
                     <CarouselItem className="basis-1/2 md:basis-1/2 lg:basis-1/3">
                      
@@ -118,7 +118,7 @@ export default function Home() {
                             </CardContent>
                           </Card>
                       </div>
-                      <div className='text-white font-inter font-medium text-xl md:text-2xl text-center mt-4'>CNA's</div>
+                      <div className='text-white font-inter font-medium text-xl md:text-2xl text-center mt-4'>CNA`&lsquo`s</div>
                     </CarouselItem>
                     
                   </CarouselContent>
