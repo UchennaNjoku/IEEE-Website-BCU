@@ -52,8 +52,8 @@ const Navbar: FC = () => {
             <div className="absolute top-8 right-4 w-fit h-fit px-5 py-3 rounded-md bg-gray-600 z-50" onClick={onMenuClick}>
               <div className="flex flex-col justify-center items-center">
                 <a href="/" className="p-2 text-gray-400 hover:text-gray-300">OUR PLAN</a>
-                <a href="/" className="p-2 text-gray-400 hover:text-gray-300">ABOUT US</a>
-                <a href="/" className="p-2 text-gray-400 hover:text-gray-300">CONTACT</a>
+                <a href="/" className="p-2 text-gray-400 hover:text-gray-300">ABOUT THE BOT</a>
+                <a href="/team" className="p-2 text-gray-400 hover:text-gray-300">MEET TEAM</a>
               </div>
             </div>
           )}
@@ -62,8 +62,8 @@ const Navbar: FC = () => {
         {/* DESKTOP MENU */}
         <div className="hidden md:flex text-sm lg:text-base font-inter items-center">
           <a href="/" className="px-4 lg:px-7 text-gray-300 hover:text-gray-400">OUR PLAN</a>
-          <a href="/" className="px-4 lg:px-7 text-gray-300 hover:text-gray-400">ABOUT US</a>
-          <a href="/" className="px-4 lg:px-7 text-gray-300 hover:text-gray-400">CONTACT</a>
+          <a href="/" className="px-4 lg:px-7 text-gray-300 hover:text-gray-400">ABOUT THE BOT</a>
+          <a href="/team" className="px-4 lg:px-7 text-gray-300 hover:text-gray-400">MEET TEAM</a>
         </div>
       </div>
     </nav>
